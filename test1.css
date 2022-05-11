@@ -241,13 +241,12 @@ ul{
   .HeaderNavListItem{
     transition: opacity .2s;
   }
+    .HeaderNavListItem:hover{
+    opacity: .8;
+  }
 }
 
-/*@media screen and (min-width:768px){*/
-/*  .HeaderNavListItem:hover{*/
-/*    opacity: .8;*/
-/*  }*/
-/*}*/
+
 
 .HeaderNavListItem-Link{
   display: block;
@@ -334,13 +333,11 @@ ul{
   .HeaderNavListItem-Link-button{
     transition: opacity .2s;
   }
+  .HeaderNavListItem-Link-button:hover{
+    opacity: .8;
+  }
 }
 
-/*@media screen and (min-width: 768px){*/
-/*  .HeaderNavListItem-Link-button:hover{*/
-/*    opacity: .8;*/
-/*  }*/
-/*}*/
 
 main{
   display: block;
@@ -526,13 +523,12 @@ section{
   .FirstViewContent-button a{
     transition: opacity .2s;
   }
+   .FirstViewContent-button a:hover{
+    opacity: .8;
+  }
 }
 
-/*@media screen and (min-width: 768px){*/
-/*  .FirstViewContent-button a:hover{*/
-/*    opacity: .8;*/
-/*  }*/
-/*}*/
+
 
 @media screen and (max-width: 767px){
   .FirstViewContent-button a{
